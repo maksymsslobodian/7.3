@@ -1,13 +1,35 @@
-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 10px;
+body {
+    background-color: #bc9681; /* Колір зі скріншота */
+    color: #4e1a1a;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
 }
 
-nav ul {
+.menu-container {
+    max-width: 600px;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 { font-size: 45px; text-transform: uppercase; margin-bottom: 30px; }
+h2 { border-bottom: 1px solid #4e1a1a; display: inline-block; }
+
+ul { list-style: none; padding: 0; margin-bottom: 30px; }
+li { display: flex; justify-content: space-between; margin: 10px 0; font-size: 18px; }
+
+/* Виконання умови №3 (не прямокутник) */
+.gallery {
     display: flex;
-    gap: 20px;
-    list-style: none;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Коло */
+    object-fit: cover;
+    border: 3px solid #fdfdfd;
 }
