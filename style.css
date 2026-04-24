@@ -23,8 +23,4 @@ body {
 
 /* Кожне фото показує свою страву зі скріншота */
 .circle-1 { object-position: 85% 25%; zoom: 1.5; }
-.circle-2 { object-position: 85% 45%; zoom: 1.5; }
-.circle-3 { object-position: 85% 65%; zoom: 1.5; }
-.circle-4 { object-position: 85% 85%; zoom: 1.5; }
-
 h1 { font-size: 3em; text-transform: uppercase; }
