@@ -1,26 +1,13 @@
-body {
-    background-color: #bc9681; /* Колір як на твоєму скріні */
-    color: #4e1a1a;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
 }
 
-.images-container {
+nav ul {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 20px;
+    list-style: none;
 }
-
-/* Робимо зображення круглими — УМОВА №3 ВИКОНАНА */
-.dish-crop {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; 
-    border: 4px solid white;
-    object-fit: none; /* Це дозволить нам "рухати" картинку всередині кола */
-}
-
-/* Кожне фото показує свою страву зі скріншота */
-.circle-1 { object-position: 85% 25%; zoom: 1.5; }
-h1 { font-size: 3em; text-transform: uppercase; }
